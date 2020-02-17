@@ -1,6 +1,6 @@
 # Lazard LCOE model
 
-Investment firm Lazard has published the 12th version of their [Levelized Cost of Energy assessment](https://www.lazard.com/media/450784/lazards-levelized-cost-of-energy-version-120-vfinal.pdf).
+Investment firm Lazard has published the 13th version of their [Levelized Cost of Energy assessment](https://www.lazard.com/media/451086/lazards-levelized-cost-of-energy-version-130-vf.pdf).
 
 It has then been cited in an antinuclear report, and now I keep arguing over these numbers on Reddit with people who think we should ditch nuclear energy altogether because renewables appear so much cheaper in Lazard's estimates.
 

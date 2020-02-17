@@ -1,0 +1,215 @@
+coal:
+  high:
+    capacity_factor: 0.66
+    capacity_mw: 600
+    capital_cost_per_kw: 6250
+    fixed_oam_per_kw: 81.75
+    fuel_cost_per_mbtu: 1.45
+    heat_rate_btu_per_kwh: 12000
+    lifetime: 40
+    macrs_schedule: 20
+    variable_oam_per_mwh: 5
+  low:
+    capacity_factor: 0.83
+    capacity_mw: 600
+    capital_cost_per_kw: 3000
+    fixed_oam_per_kw: 40.75
+    fuel_cost_per_mbtu: 1.45
+    heat_rate_btu_per_kwh: 8750
+    lifetime: 40
+    macrs_schedule: 20
+    variable_oam_per_mwh: 2.75
+
+gas_peaking:
+  high:
+    capacity_factor: 0.1
+    capacity_mw: 50
+    capital_cost_per_kw: 950
+    fixed_oam_per_kw: 20.75
+    fuel_cost_per_mbtu: 3.45
+    heat_rate_btu_per_kwh: 8000
+    lifetime: 20
+    variable_oam_per_mwh: 6.25
+    macrs_schedule: 20
+  low:
+    capacity_factor: 0.1
+    capacity_mw: 240
+    capital_cost_per_kw: 700
+    fixed_oam_per_kw: 5.5
+    fuel_cost_per_mbtu: 3.45
+    heat_rate_btu_per_kwh: 9804
+    lifetime: 20
+    variable_oam_per_mwh: 4.75
+    macrs_schedule: 20
+
+gas_combined_cycle:
+  high:
+    capacity_factor: 0.55
+    capacity_mw: 550
+    capital_cost_per_kw: 1300
+    fixed_oam_per_kw: 13.5
+    fuel_cost_per_mbtu: 3.45
+    heat_rate_btu_per_kwh: 6900
+    lifetime: 20
+    variable_oam_per_mwh: 3.75
+    macrs_schedule: 20
+  low:
+    capacity_factor: 0.7
+    capacity_mw: 550
+    capital_cost_per_kw: 700
+    fixed_oam_per_kw: 11
+    fuel_cost_per_mbtu: 3.45
+    heat_rate_btu_per_kwh: 6133
+    lifetime: 20
+    variable_oam_per_mwh: 3
+    macrs_schedule: 20
+
+geothermal:
+  high:
+    capacity_factor: 0.85
+    capacity_mw: 50
+    capital_cost_per_kw: 6600
+    fixed_oam_per_kw: 0
+    lifetime: 25
+    variable_oam_per_mwh: 34
+  low:
+    capacity_factor: 0.9
+    capacity_mw: 20
+    capital_cost_per_kw: 3950
+    fixed_oam_per_kw: 0
+    lifetime: 25
+    variable_oam_per_mwh: 24
+
+nuclear:
+  high:
+    capacity_factor: 0.9
+    capacity_mw: 2200
+    capital_cost_per_kw: 12200
+    fixed_oam_per_kw: 133
+    fuel_cost_per_mbtu: 0.85
+    heat_rate_btu_per_kwh: 10450
+    lifetime: 40
+    macrs_schedule: 20
+    variable_oam_per_mwh: 4.25
+  low:
+    capacity_factor: 0.91
+    capacity_mw: 2200
+    capital_cost_per_kw: 6900
+    fixed_oam_per_kw: 108.5
+    fuel_cost_per_mbtu: 0.85
+    heat_rate_btu_per_kwh: 10450
+    lifetime: 40
+    macrs_schedule: 20
+    variable_oam_per_mwh: 3.5
+
+pv_rooftop_residential:
+  high:
+    capacity_factor: 0.13
+    capacity_mw: 0.005
+    capital_cost_per_kw: 2950
+    fixed_oam_per_kw: 25
+    lifetime: 25
+  low:
+    capacity_factor: 0.19
+    capacity_mw: 0.005
+    capital_cost_per_kw: 2800
+    fixed_oam_per_kw: 14
+    lifetime: 25
+
+pv_rooftop_cai:
+  high:
+    capacity_factor: 0.20
+    capacity_mw: 1
+    capital_cost_per_kw: 2950
+    fixed_oam_per_kw: 20
+    lifetime: 25
+  low:
+    capacity_factor: 0.25
+    capacity_mw: 1
+    capital_cost_per_kw: 1750
+    fixed_oam_per_kw: 15
+    lifetime: 25
+
+pv_community:
+  high:
+    capacity_factor: 0.15
+    capacity_mw: 5
+    capital_cost_per_kw: 2250
+    fixed_oam_per_kw: 16
+    lifetime: 30
+  low:
+    capacity_factor: 0.25
+    capacity_mw: 5
+    capital_cost_per_kw: 1600
+    fixed_oam_per_kw: 12
+    lifetime: 30
+
+pv_utility_crystalline:
+  high:
+    capacity_factor: 0.21
+    capacity_mw: 100
+    capital_cost_per_kw: 900
+    fixed_oam_per_kw: 9
+    lifetime: 30
+  low:
+    capacity_factor: 0.32
+    capacity_mw: 100
+    capital_cost_per_kw: 1100
+    fixed_oam_per_kw: 12
+    lifetime: 30
+
+pv_utility_thin_film:
+  high:
+    capacity_factor: 0.23
+    capacity_mw: 50
+    capital_cost_per_kw: 900
+    fixed_oam_per_kw: 9
+    lifetime: 30
+  low:
+    capacity_factor: 0.34
+    capacity_mw: 50
+    capital_cost_per_kw: 1100
+    fixed_oam_per_kw: 12
+    lifetime: 30
+
+solar_thermal:
+  high:
+    capacity_factor: 0.39
+    capacity_mw: 150
+    capital_cost_per_kw: 6000
+    fixed_oam_per_kw: 80
+    lifetime: 35
+  low:
+    capacity_factor: 0.68
+    capacity_mw: 110
+    capital_cost_per_kw: 9100
+    fixed_oam_per_kw: 75
+    lifetime: 35
+
+wind_offshore:
+  high:
+    capacity_factor: 0.45
+    capacity_mw: 385
+    capital_cost_per_kw: 3550
+    fixed_oam_per_kw: 110
+    lifetime: 20
+  low:
+    capacity_factor: 0.55
+    capacity_mw: 210
+    capital_cost_per_kw: 2350
+    fixed_oam_per_kw: 80
+    lifetime: 20
+
+wind_onshore:
+  high:
+    capacity_factor: 0.38
+    capacity_mw: 150
+    capital_cost_per_kw: 1500
+    fixed_oam_per_kw: 36.5
+    lifetime: 20
+  low:
+    capacity_factor: 0.55
+    capacity_mw: 150
+    capital_cost_per_kw: 1100
+    fixed_oam_per_kw: 28
+    lifetime: 20

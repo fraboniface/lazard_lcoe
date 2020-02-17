@@ -1,0 +1,51 @@
+coal:
+  high: 152
+  low: 66
+
+gas_peaking:
+  high: 199
+  low: 150
+
+gas_combined_cycle:
+  high: 68
+  low: 44
+
+geothermal:
+  high: 112
+  low: 69
+
+nuclear:
+  high: 192
+  low: 118
+
+pv_rooftop_residential:
+  high: 242
+  low: 151
+
+pv_rooftop_cai:
+  high: 154
+  low: 75
+
+pv_community:
+  high: 148
+  low: 64
+
+pv_utility_crystalline:
+  high: 44
+  low: 36
+
+pv_utility_thin_film:
+  high: 42
+  low: 32
+
+solar_thermal:
+  high: 156
+  low: 126
+
+wind_offshore:
+  high: 115
+  low: 64
+
+wind_onshore:
+  high: 54
+  low: 28
